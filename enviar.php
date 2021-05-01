@@ -1,7 +1,7 @@
 <?php
 // llamndo a los campos
 $name = $_POST["name"];
-$mail = $_POST["mail"];
+$email = $_POST["email"];
 $message = $_POST["message"];
 
 // datos para el correo
@@ -10,7 +10,7 @@ $destinatario = "rloria7@gmail.com";
 $asunto = "mensaje desde ricardoloria.tech";
 
 $carta = "de: $name \n";
-$carta .="mail: $mail \n";
+$carta .="email: $email \n";
 $carta .="message $mssage";
 
 // enviando mensaje
