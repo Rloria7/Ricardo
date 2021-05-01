@@ -10,11 +10,11 @@ $destinatario = "rloria7@gmail.com";
 $asunto = "mensaje desde ricardoloria.tech";
 
 $carta = "de: $name \n";
-$carta .="email: $email \n";
+$carta .="email: $email \n"
 $carta .="message $mssage";
 
 // enviando mensaje
 mail($destinatario, $asunto, $carta);
-header("location:mensaje-envio.html")
+header("location:mensaje-envio.html");
 
 ?>
