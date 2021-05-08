@@ -16,7 +16,8 @@ NB: This file contains the styling for the actual theme, this is the file you ne
     2. Preloader css
     3. Mouse Animation css
     4. Nav Area css
-    5. Banner Area css
+    5. 
+Area css
     6. About Area css
     7. Services Area css
     8. Number Area css
@@ -375,7 +376,7 @@ img {
 
 
 .banner-area{
-    background-image: url(../images/home-bg-2.jpeg); /*--edit image--*/
+    background-image: url(../images/gbwpp.jpeg); /*--edit image--*/
     background-position: center;
     background-size:cover;
     position: relative;
