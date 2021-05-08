@@ -437,7 +437,6 @@ canvas{
 }
 
 .banner-btn {
-    background: #2da8c7;
     text-decoration: none;
     padding: 10px 30px;
     display: inline-block;
@@ -447,11 +446,15 @@ canvas{
     -webkit-border-radius:5px;
     -moz-border-radius:5px;
     border-radius:5px;
+background: -webkit-linear-gradient(left, #33c8c1 0%, #119bd2 50%, #33c8c1 100%);
+  background: -o-linear-gradient(left, #33c8c1 0%, #119bd2 50%, #33c8c1 100%);
+  background: linear-gradient(to right, #33c8c1 0%, #119bd2 50%, #33c8c1 100%);
+  background-size: 200%;
 }
 .banner-btn:hover, .banner-btn:focus {
     text-decoration: none;
     color: #ffffff;
-    background-color: #000000;
+    background-position: right center; 
 }
 
 .welcome-text h3 {
