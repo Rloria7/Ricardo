@@ -178,7 +178,9 @@ img {
     margin: 0 auto;
     padding: 0;
 }
-
+.tittle h2{
+font-weight:600;
+}
 /*---Default css ends---*/
 
 
