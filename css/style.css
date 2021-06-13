@@ -433,7 +433,7 @@ img {
     -webkit-text-fill-color: transparent;
   }
 }
-.subtitle{
+.subtitle span{
 background: -webkit-linear-gradient(330deg, #2da8c7 0%, #66e4dd 15%, #3fd8dd 50%, #07b1db 65%, #031a83 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
