@@ -125,7 +125,7 @@ h4,
 h5,
 h6{
     color: #333333;
-    font-weight: 800;
+    font-weight: 700;
 }
 
 p {
@@ -179,22 +179,6 @@ img {
     padding: 0;
 }
 
-.text-default-gradient {
-  background: linear-gradient(to right, var(--color-primary) 50%, var(--color-secondary) 50%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; }
-
-.bg-theme-gradient, .im-hover::after, .footer-style-01 .footer-link ul.ft-link li a::after, .footer-style-01 .ft-text p a::after, a.btn-transparent::after {
-  background: linear-gradient(120deg, #1C99FE 20.69%, #7644FF 50.19%, var(--color-primary) 79.69%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='var(--color-primary)', endColorstr='var(--color-secondary)',GradientType=1 ); }
-
-.theme-gradient, a.btn-transparent, .section-title span.subtitle {
-  background: var(--color-primary);
-  background: linear-gradient(120deg, #1C99FE 20.69%, #7644FF 50.19%, var(--color-primary) 79.69%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='var(--color-primary)', endColorstr='var(--color-secondary)',GradientType=1 );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  display: inline-block; }
 /*---Default css ends---*/
 
 
