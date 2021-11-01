@@ -33,7 +33,7 @@ Area css
 
 /*--- 1. Default css starts ---*/
 :root {
-  --color-primary: #FD4766;
+--color-primary: #ff6a00;
   --color-secondary: #337DFF;
   --color-secondary-rgb: rgba(253, 71, 102 ,1);
   --color-tertiary: #010001;
@@ -171,9 +171,9 @@ img {
 }
 
 .line-one {
-    height: 1px;
+    height: 3px;
     width: 100px;
-    background: #2da8c7;
+    background: linear-gradient(120deg, #0099F7 20.69%, #085ba8 50.19%, var(--color-primary) 79.69%);
     display: block;
     margin: 0 auto;
     padding: 0;
@@ -378,7 +378,7 @@ font-weight:600;
 
 .sticky_navigation .navbar-brand:hover, .sticky_navigation .navbar-brand:focus, .sticky_navigation .navbar-brand span {
     color: #2da8c7;
-    background: -webkit-linear-gradient(330deg, #2da8c7 0%, #66e4dd 25%, #3fd8dd 50%, #07b1db 75%, #031a83 100%);
+    background: -webkit-linear-gradient(330deg, #2da8c7 0%, #66e4dd 20%, #3fd8dd 40%, #07b1db 70%, #031a83 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 
@@ -501,7 +501,7 @@ font-weight:600;
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0,0,0,0.3);
+    background: rgba(0,0,0,0.4);
     content: '';
 }
 
@@ -514,7 +514,9 @@ canvas{
     bottom: 0;
     left: 0;
 }
+.line-one{
 
+}
 .banner-table{
     display: table;
     margin: 0;
@@ -546,6 +548,10 @@ canvas{
 
 .ah-headline.clip .ah-words-wrapper::after {
     background-color: #fff;
+    font-weight: bold;
+}
+.ah-headline.clip .ah-words-wrapper b{
+font-weight: bold;
 }
 
 .banner-btn {
@@ -655,7 +661,7 @@ box-shadow: 0 20px 40px rgba(0,0,0,.4);
 }
 
 .skillbar-bar {
-    background-color: #ededed;
+    background-color: #d3d3d3;
     width: 100%;
     height: 5px
 }
@@ -674,7 +680,7 @@ box-shadow: 0 20px 40px rgba(0,0,0,.4);
 /*---------------7. Services area Starts--------------*/
 
 .services-area {
-	background: #F3F4F3;
+	background: #eeeeee;
 }
 
 .services-icon i {
