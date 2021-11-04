@@ -178,6 +178,9 @@ img {
     margin: 0 auto;
     padding: 0;
 }
+.line-one p:hover{
+background: linear-gradient(120deg, #085ba8 20.69%,  #0099F7 .19%, var(--color-primary) 79.69%);
+}
 .tittle h2{
 font-weight:600;
 }
@@ -1045,6 +1048,7 @@ box-shadow: 0 20px 40px rgba(0,0,0,.4);
 
 .socials i:hover {
     cursor: pointer;
+    color: #00ADEF;
 }
 
 .single-contact {
@@ -1205,14 +1209,4 @@ padding-left: 60px;
     box-shadow: 0 0 4px #999;
     outline: none;
   }
-  
-
-
-
-
-
-
-
-
-
-
+ 
