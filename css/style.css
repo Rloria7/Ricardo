@@ -129,6 +129,11 @@ h6{
     color: #eee;
 
 }
+.socials i{
+background-color: #000;
+padding: 10px;
+border-radius: 50%;
+}
 .section-title h2.title {
     font-size: 50px;
     font-weight: 600;
@@ -788,24 +793,30 @@ color: #EEE;
 /*-------- 8. Number area starts-----------*/
 
 .number-area {
-	height:600 px;
-	background-image: url(https://besthqwallpapers.com/Uploads/18-12-2018/74896/thumb2-apple-macbook-4k-close-uo-ios-12-new-macbook.jpg) fixed no-repeat 50% 50%;
-	background-size:cover;
-	color:;
+	height: 300px;
+	background-image:linear-gradient(rgba(0,0,0,0.3), rgba(238, 44, 44, 0.5)), url(../images/wppmac.png);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+	background-position:center;
+  background-size: cover;
 }
 
 .counter {
+  height: 50%;
 	font-size: 45px;
-	color: #000;
+	color: #fff;
 }
 
 .single-number i {
-	font-size: 35px;
-    color: #000;
+	font-size: 45px;
+  font-weight: bold;
+  color: #f83600;
 }
 
 .single-number p {
 	font-size: 18px;
+  font-weight: bold;
+  color: #fff;
 }
 
 /*--------Number area ends-----------*/
@@ -1594,11 +1605,18 @@ color: #EEE;
 .single-contact .socials i {
     font-size: 14px;
     color: #f83600;
+    background-color: #000;
+    border-radius: 50%;
+    border:2px solid #fff
 }
 
 .socials i:hover {
     cursor: pointer;
-    color: #f87b58;
+    background: #f83600;
+    padding:10px;
+    border-radius: 50%;
+    color: #000;
+    transition:all .25s ease;
 }
 
 .single-contact {
