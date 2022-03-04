@@ -788,8 +788,10 @@ color: #EEE;
 /*-------- 8. Number area starts-----------*/
 
 .number-area {
-	background: linear-gradient( 420deg,  #fe8c00 15%, #ca4925 75%);
-	color: #000;
+	height:600px;
+	background-image: url(https://besthqwallpapers.com/Uploads/18-12-2018/74896/thumb2-apple-macbook-4k-close-uo-ios-12-new-macbook.jpg) fixed no-repeat 50% 50%;
+	background-size:cover;
+	color:;
 }
 
 .counter {
