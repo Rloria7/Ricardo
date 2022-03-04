@@ -627,7 +627,9 @@ box-shadow: 0 20px 40px rgba(0,0,0,.4);
 /*-------- 8. Number area starts-----------*/
 
 .number-area {
-	background: linear-gradient( to right,  #2da8c7, #05647c);
+	background: url(https://besthqwallpapers.com/Uploads/18-12-2018/74896/thumb2-apple-macbook-4k-close-uo-ios-12-new-macbook.jpg) fixed no-repeat 50% 50%;
+	bacground-size: cover;
+	height:600px;
 	color: #fff;
 }
 
