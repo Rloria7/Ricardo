@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://rloria7.github.io/Ricardo/</loc>
+    <lastmod>2025-04-29</lastmod>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://rloria7.github.io/Ricardo/#about</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://rloria7.github.io/Ricardo/#services</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://rloria7.github.io/Ricardo/#portfolio</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://rloria7.github.io/Ricardo/#contact</loc>
+    <priority>0.8</priority>
+  </url>
+</urlset>
